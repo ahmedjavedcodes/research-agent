@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Agent runtime
+agent_execution.log
+
+# Secrets
+.env
+
+# Samples generated during testing
+sample.txt
+sample.pdf
+
+# Node / Next (see frontend/.gitignore too)
+node_modules/
+.next/
